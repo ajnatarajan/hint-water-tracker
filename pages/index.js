@@ -30,8 +30,16 @@ export default function Landing() {
           Can you reach the top?
         </div>
         <div className={styles.buttonSection}>
-          <Button text="log in" href="/api/auth/login" />
-          <Button text="join the fun" href="/api/auth/login" />
+          <Button
+            text="log in"
+            href="/api/auth/login"
+            propsClass={styles.button}
+          />
+          <Button
+            text="join the fun"
+            href="/api/auth/login"
+            propsClass={styles.button}
+          />
         </div>
       </main>
     </div>
