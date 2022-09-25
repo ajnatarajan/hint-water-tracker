@@ -11,26 +11,20 @@ export default function Landing() {
           name="description"
           content="Figure out how much hint water you've drunk"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       <main className={styles.main}>
-        <h1>They call me the</h1>
-        <h1 className={styles.title}>hint water tracker</h1>
+        <div className={styles.title}>
+          <div className={styles.titleLogo}></div>
+          <div className={styles.titleText}>hint water tracker</div>
+        </div>
+        <div className={styles.description}>
+          Join along in tracking how many hint waters you’re drinking per day.
+          Can you reach the top?
+        </div>
+        <div className={styles.buttons}></div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 }
