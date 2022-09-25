@@ -8,6 +8,7 @@
   border-width: 3px;
   border-color: #000;
   border-radius: 10px;
+  background-color: #ebebeb;
 }
 
 .button:hover {
