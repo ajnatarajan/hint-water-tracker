@@ -30,7 +30,7 @@ export default function Landing() {
           Can you reach the top?
         </div>
         <div className={styles.buttonSection}>
-          <Button text="log in" />
+          <Button text="log in" href="/api/auth/login" />
           <Button text="join the fun" />
         </div>
       </main>
