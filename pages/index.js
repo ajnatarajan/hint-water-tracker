@@ -19,7 +19,7 @@ export default function Landing() {
         <div className={styles.title}>
           <Image
             className={styles.titleLogo}
-            src="/../public/icon.png"
+            src="/icon.png"
             width={50}
             height={50}
           />
