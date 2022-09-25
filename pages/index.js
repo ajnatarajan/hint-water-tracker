@@ -31,7 +31,7 @@ export default function Landing() {
         </div>
         <div className={styles.buttonSection}>
           <Button text="log in" href="/api/auth/login" />
-          <Button text="join the fun" />
+          <Button text="join the fun" href="/api/auth/login" />
         </div>
       </main>
     </div>
