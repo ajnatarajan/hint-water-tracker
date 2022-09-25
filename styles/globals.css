@@ -45,3 +45,10 @@ a {
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Brown";
+  src: url("../fonts/brown/BrownLightRegular.ttf");
+  font-weight: light;
+  font-style: normal;
+}

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Button from "../components/Button";
 
 export default function Landing() {
   return (
@@ -16,14 +17,22 @@ export default function Landing() {
 
       <main className={styles.main}>
         <div className={styles.title}>
-          <div className={styles.titleLogo}></div>
+          <Image
+            className={styles.titleLogo}
+            src="/../public/icon.png"
+            width={50}
+            height={50}
+          />
           <div className={styles.titleText}>hint water tracker</div>
         </div>
         <div className={styles.description}>
           Join along in tracking how many hint waters you’re drinking per day.
           Can you reach the top?
         </div>
-        <div className={styles.buttons}></div>
+        <div className={styles.buttonSection}>
+          <Button text="log in" />
+          <Button text="join the fun" />
+        </div>
       </main>
     </div>
   );
